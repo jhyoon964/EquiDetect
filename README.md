@@ -10,8 +10,8 @@ The paper will be presented at [AAAI2025](https://aaai.org/conference/aaai/aaai-
 
 **Install the environment**
 ```
-conda create -n oprnet python=3.8
-conda activate oprnet
+conda create -n equidetect python=3.8
+conda activate equidetect
 conda install -y pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.1 -c pytorch -c conda-forge
 conda install -y -c fvcore -c iopath -c conda-forge fvcore iopath
 conda install -y pytorch3d -c pytorch3d
